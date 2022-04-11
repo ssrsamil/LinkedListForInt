@@ -149,9 +149,9 @@ namespace LinkedListForInt
             }
         }
 
-        public void Bro()
+        public void Bro(string name)
         {
-            Console.WriteLine("Samir Dadashzada is a true bro!");
+            Console.WriteLine("{0} is a true bro!", name);
         }
     }    
 }
